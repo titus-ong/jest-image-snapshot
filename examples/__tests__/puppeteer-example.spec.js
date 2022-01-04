@@ -16,6 +16,8 @@
 // eslint-disable-next-line import/no-unresolved
 const puppeteer = require('puppeteer');
 
+jest.setTimeout(15000);
+
 describe('jest-image-snapshot usage with an image received from puppeteer', () => {
   let browser;
 
